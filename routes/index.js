@@ -14,10 +14,10 @@ exports.library = function(req, res) {
   });
 };
 
-exports.woo = function(req, res) {
-  res.render('woo', {
-      title: 'This is the woo page',
-      description: 'Does it work',
+exports.about = function(req, res) {
+  res.render('about', {
+      title: 'About',
+      description: 'Find out what wheresthebear is here to do',
       author: '@weavermj'
   });
 };
