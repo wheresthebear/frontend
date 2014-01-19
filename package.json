@@ -23,7 +23,8 @@
   "dependencies": {
     "logfmt": "~0.18.1",
     "express": "~3.4.8",
-    "jade": "~1.1.5"
+    "jade": "~1.1.5",
+    "request": "~2.33.0"
   },
   "engines": {
     "node": "0.10.x"
