@@ -14,6 +14,8 @@ app.configure(function() {
 
 app.get('/', routes.home);
 
+app.get('/library', routes.library);
+
 app.get('/woo', routes.woo);
 
 var port = process.env.PORT || 5000;

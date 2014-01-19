@@ -6,6 +6,14 @@ exports.home = function(req, res) {
   });
 };
 
+exports.library = function(req, res) {
+  res.render('library', {
+      title: 'Style library',
+      description: '',
+      author: '@weavermj'
+  });
+};
+
 exports.woo = function(req, res) {
   res.render('woo', {
       title: 'This is the woo page',
