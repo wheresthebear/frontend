@@ -1,9 +1,6 @@
-footer hr {
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+nav.top-bar {
+  margin-bottom: 16px;
 }
-
-
 
 .panel.post {
   background-color: #eeeeee;
@@ -41,10 +38,8 @@ footer hr {
   list-style-type: none;
 }
 
+/* Small specific styles */
 @media only screen and (max-width: 40em) {
-  .panel.found {
-    margin-top: 20px;
-  }
   .panel.found.main {
       display: block;
   }
@@ -53,14 +48,17 @@ footer hr {
   }
 }
 
+/* medium and above specific styles */
 @media only screen and (min-width: 40.063em) {
-  .panel.found {
-    margin-top: 26px;
-  }
   .panel.found.main {
       display: none;
   }
   .panel.found.sidebox {
       display: block;
   }
+}
+
+footer hr {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
