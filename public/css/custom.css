@@ -40,3 +40,21 @@ footer hr {
   margin-left: 0; 
   list-style-type: none;
 }
+
+@media only screen and (max-width: 40em) {
+  .panel.found.main {
+      display: block;
+  }
+  .panel.found.sidebox {
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+  .panel.found.main {
+      display: none;
+  }
+  .panel.found.sidebox {
+      display: block;
+  }
+}
