@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/wheresthebear/frontend/issues"
   },
-  "homepage": "https://github.com/wheresthebear/frontend"
+  "homepage": "https://github.com/wheresthebear/frontend",
+  "dependencies": {
+    "logfmt": "~0.18.1",
+    "express": "~3.4.8"
+  }
 }
