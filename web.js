@@ -13,7 +13,6 @@ app.configure(function() {
 });
 
 app.get('/', routes.home);
-
 app.get('/library', routes.library);
 app.get('/about', routes.about);
 
