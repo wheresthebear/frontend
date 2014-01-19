@@ -46,10 +46,16 @@ html.no-js(lang='en')
           ul.left
             li
               a(href="/woo") Woo
-              
 
 
-    block content
-    block pre-footer
-    block footer
+      div.row
+        div(class="small-1 column")
+          &nbsp;
+        div(class="small-10 columns")
+           block content
+        div(class="small-1 column")
+          &nbsp;
+     
+      block pre-footer
+      block footer
 
