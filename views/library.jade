@@ -3,42 +3,41 @@ extends layout
 block content
   div.row
     div.small-12.columns
-      h1 Style Library
-      h3 Here we set up elements from Foundation in JADE so that we can see what the page looks like and easily re-use them
+      .panel.pagetitle
+        h1 Style Library
+      .panel
+        p Here we set up elements from Foundation in JADE so that we can see what the page looks like and easily re-use them
 
-      hr
+      .panel
+        h1 heading 1
+        h2 heading 2
+        h3 heading 3
+        h4 heading 4
+        h5 heading 5
+        h6 heading 6
 
-      h1 heading 1
-      h2 heading 2
-      h3 heading 3
-      h4 heading 4
-      h5 heading 5
-      h6 heading 6
+      .panel
+        span.label Basic Label
+        br
+        br
+        span.secondary.label Secondary Label
+        br
+        br
+        span.alert.label Alert Label
+        br
+        br
+        span.success.label Success Label
+        br
+        br
+        span.round.label Round Labels
+        &nbsp;
+        span.round.secondary.label Round Labels
+        &nbsp;
+        span.round.alert.label Round Labels
+        &nbsp;
+        span.round.success.label Round Labels
 
-      hr
-
-      span.label Basic Label
-      br
-      br
-      span.secondary.label Secondary Label
-      br
-      br
-      span.alert.label Alert Label
-      br
-      br
-      span.success.label Success Label
-      br
-      br
-      span.round.label Round Labels
-      &nbsp;
-      span.round.secondary.label Round Labels
-      &nbsp;
-      span.round.alert.label Round Labels
-      &nbsp;
-      span.round.success.label Round Labels
-
-      hr
-
-      div.panel This is a panel
-      div.panel.callout This is a callout panel
-      div.panel.callout.radius This is a callout panel with rounded corners
+      .panel
+        div.panel This is a panel
+        div.panel.callout This is a callout panel
+        div.panel.callout.radius This is a callout panel with rounded corners
