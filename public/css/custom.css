@@ -3,9 +3,7 @@ footer hr {
   margin-bottom: 4rem;
 }
 
-.panel.found {
-  margin-top: 20px;
-}
+
 
 .panel.post {
   background-color: #eeeeee;
@@ -51,6 +49,9 @@ footer hr {
 }
 
 @media only screen and (min-width: 40.063em) {
+  .panel.found {
+    margin-top: 26px;
+  }
   .panel.found.main {
       display: none;
   }
