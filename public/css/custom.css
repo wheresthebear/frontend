@@ -1,6 +1,6 @@
 footer hr {
-  margin-top: 2em;
-  margin-bottom: 4em;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .panel.found {
@@ -28,8 +28,7 @@ footer hr {
 }
 
 .panel.found ul {
-  padding-top: 10px;
-  margin-left: 0;
+  margin: 0;
 }
 
 .panel.found li {
