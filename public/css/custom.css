@@ -11,6 +11,14 @@ footer hr {
   background-color: #eeeeee;
 }
 
+.panel.post p {
+  line-height: 1.4;
+  color: #333;
+  font-weight: 300;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
 .panel.post h2 {
     font-size: 1.6875rem; 
 }
