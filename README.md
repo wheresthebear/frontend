@@ -1,4 +1,4 @@
 frontend
 ========
 
-Front end web server code for the public facing site
+Front end web server code for the public facing site.
