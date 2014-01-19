@@ -2,3 +2,11 @@ footer hr {
   margin-top: 2em;
   margin-bottom: 4em;
 }
+
+.panel.found {
+  margin-top: 20px;
+}
+
+.panel.post {
+  background-color: #F5EBFF;
+}
