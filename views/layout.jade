@@ -33,6 +33,21 @@ html.no-js(lang='en')
           li(class="toggle-topbar menu-icon")
             a(href="#") Menu
 
+        section.top-bar-section
+          ul.right
+            li.active
+              a(href="#") Right Button active
+            li.has-dropdown
+              a(href="#") Right Button with dropdown
+              ul.dropdown
+                li
+                  a(href="#") First link in dropdown
+
+          ul.left
+            li
+              a(href="/woo") Woo
+              
+
 
     block content
     block pre-footer
