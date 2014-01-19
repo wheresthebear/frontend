@@ -15,6 +15,7 @@ app.configure(function() {
 app.get('/', routes.home);
 
 app.get('/library', routes.library);
+app.get('/about', routes.about);
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
