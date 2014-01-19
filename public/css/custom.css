@@ -25,11 +25,13 @@ footer hr {
   font-size: 1.375rem; 
 }
 
-.panel.found ul {
+.panel.found ul,
+.found ul {
   margin: 0;
 }
 
-.panel.found li {
+.panel.found li,
+.found li {
   line-height: 1.4;
   color: #333;
   font-weight: 300;
@@ -40,6 +42,9 @@ footer hr {
 }
 
 @media only screen and (max-width: 40em) {
+  .panel.found {
+    margin-top: 20px;
+  }
   .panel.found.main {
       display: block;
   }
