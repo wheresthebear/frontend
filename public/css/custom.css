@@ -62,6 +62,9 @@ nav.top-bar {
       display: block;
       background: #f8f8f8;
   }
+  .twitter-timeline {
+      height: 1500px;
+  }
 }
 
 footer hr {
