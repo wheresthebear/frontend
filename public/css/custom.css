@@ -51,9 +51,6 @@ nav.top-bar {
   .panel.found.sidebox {
       display: none;
   }
-  .twitter-timeline {
-    width: 100%;
-  }
 }
 
 /* medium and above specific styles */
