@@ -43,31 +43,19 @@ nav.top-bar {
   list-style-type: none;
 }
 
+footer hr {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
 /* Small specific styles */
 @media only screen and (max-width: 40em) {
-  .panel.found.main {
-      display: block;
-  }
-  .panel.found.sidebox {
-      display: none;
-  }
+
 }
 
 /* medium and above specific styles */
 @media only screen and (min-width: 40.063em) {
-  .panel.found.main {
-      display: none;
-  }
-  .panel.found.sidebox {
-      display: block;
-      background: #f8f8f8;
-  }
   .twitter-timeline {
       height: 1500px;
   }
-}
-
-footer hr {
-  margin-top: 2rem;
-  margin-bottom: 4rem;
 }
