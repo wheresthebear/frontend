@@ -21,3 +21,12 @@ exports.about = function(req, res) {
       author: '@weavermj'
   });
 };
+
+exports.contact = function(req, res) {
+  res.render('contact', {
+      title: 'Contact',
+      description: 'Send me your story of how you found me',
+      author: '@weavermj'
+  });
+};
+

@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .row
+    div.small-12.columns
+      .panel.page-title
+        h1 Contact
+      .panel
+        p Send me the tale of how you found me and I will post your story on my website for everyone else to see. 
+      .panel 
+        form(action='/contact', name='contact', id='contact', method='post')
+          div.row
+            div.small-12.medium-3.large-2.columns
+              label(for="name").inline.left Your name
+            div.small-12.medium-9.large-10.columns
+                input(type="text",id="name",name="name")
+            div.small-12.medium-3.large-2.columns
+              label(for="email").inline.left Your e-mail address
+            div.small-12.medium-9.large-10.columns
+              input(type="text",id="email",name="email") 
+            div.small-12.columns
+              label(for="email").inline.left Your story - how you found me
+            div.small-12.columns
+              textarea(id="story",name="story",rows="20") 
+            div.small-12.columns
+              input(type="submit",id="submit",name="submit",value="Send!").button 
