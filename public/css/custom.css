@@ -43,6 +43,10 @@ nav.top-bar {
   list-style-type: none;
 }
 
+textarea { 
+  height: auto;
+}
+
 footer hr {
   margin-top: 2rem;
   margin-bottom: 4rem;
