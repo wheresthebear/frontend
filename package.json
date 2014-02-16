@@ -25,7 +25,8 @@
     "express": "~3.4.8",
     "jade": "~1.1.5",
     "request": "~2.33.0",
-    "sendgrid": "0.3.0-rc.1.7"
+    "sendgrid": "0.3.0-rc.1.7",
+    "express-validator": "~1.0.0"
   },
   "engines": {
     "node": "0.10.x"
