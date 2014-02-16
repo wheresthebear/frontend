@@ -2,10 +2,6 @@ var express = require("express"),
     routes = require("./routes"),
     logfmt = require("logfmt"),
     app = express(),
-    sendgrid  = require('sendgrid')(
-      'app21385780@heroku.com',
-      'harz9ury'
-    ),
     expressValidator = require('express-validator');
 
 app.use(logfmt.requestLogger());
