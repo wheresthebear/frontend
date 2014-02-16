@@ -7,20 +7,27 @@ block content
         h1 Contact
       .panel
         p Send me the tale of how you found me and I will post your story on my website for everyone else to see. 
+
+      if(errors.length > 0)
+        .panel
+          p The following errors were found:
+          ul
+            for error in errors
+              li= error.msg
       .panel 
         form(action='/contact', name='contact', id='contact', method='post')
           div.row
             div.small-12.medium-3.large-2.columns
               label(for="name").inline.left Your name
             div.small-12.medium-9.large-10.columns
-                input(type="text",id="name",name="name")
+              input(type="text",id="name",name="name",value="#{name}")
             div.small-12.medium-3.large-2.columns
               label(for="email").inline.left Your e-mail address
             div.small-12.medium-9.large-10.columns
-              input(type="text",id="email",name="email") 
+              input(type="text",id="email",name="email",value="#{email}")
             div.small-12.columns
               label(for="email").inline.left Your story - how you found me
             div.small-12.columns
-              textarea(id="story",name="story",rows="10") 
+              textarea(id="story",name="story",rows="10") #{story}
             div.small-12.columns
               input(type="submit",id="submit",name="submit",value="Send!").button 
